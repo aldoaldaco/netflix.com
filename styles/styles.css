@@ -1,0 +1,245 @@
+/*Theme application*/
+body {
+  margin: 0;
+  background-color: black;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#inicio {
+  width: 100%;
+  min-width: 320px;
+  height: 100vh;
+  background: #020024;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(40%, rgba(0, 0, 0, 0.5)), color-stop(75%, rgba(0, 0, 0, 0.8))), url("https://assets.nflxext.com/ffe/siteui/vlv3/23c72870-12c8-4682-9f55-337a083ccfa7/96fce40c-46e0-43c1-b7f5-d9e0baa82d5d/MX-es-20211129-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.8) 75%), url("https://assets.nflxext.com/ffe/siteui/vlv3/23c72870-12c8-4682-9f55-337a083ccfa7/96fce40c-46e0-43c1-b7f5-d9e0baa82d5d/MX-es-20211129-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px solid grey;
+}
+
+#inicio .inicio-header {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.4rem;
+}
+
+#inicio .inicio-header-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  padding-left: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#inicio .inicio-header .inicio-header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem 0 0;
+}
+
+#inicio .inicio-header .inicio-header-right select {
+  height: 28px;
+  width: 100px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.4);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 1px solid #aaa;
+  padding: 0.25rem 1.375rem;
+  width: 78px;
+}
+
+#inicio .inicio-header .inicio-header-right button {
+  margin-left: 0.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 28px;
+  width: 100px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+#inicio .inicio-header .inicio-header-right::before {
+  font-size: .75rem;
+  content: '\e896';
+}
+
+#inicio .inicio-textos {
+  height: calc(100vh - 70px);
+  max-width: 950px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+#inicio .inicio-textos h1 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+#inicio .inicio-textos p {
+  font-weight: 300;
+  font-size: 1.125rem;
+  text-align: center;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+#inicio .inicio-textos form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 55px);
+}
+
+#inicio .inicio-textos form input {
+  height: 48px;
+  width: 100%;
+  margin: 0;
+  border: solid 1px #8c8c8c;
+  border-radius: 3px;
+  padding-left: 1rem;
+}
+
+#inicio .inicio-textos form button {
+  height: 40px;
+  width: 122px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+#inicio .inicio-textos > :nth-child(2), #inicio .inicio-textos > :nth-child(3) {
+  margin-bottom: 1rem;
+}
+
+#infomacion .informacion-subseccion {
+  padding: 1rem 0;
+  border-bottom: 5px solid grey;
+  background-color: transparent;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#infomacion .informacion-subseccion-left {
+  background-color: black;
+}
+
+#infomacion .informacion-subseccion-left * {
+  text-align: center;
+}
+
+#infomacion .informacion-subseccion-right {
+  position: relative;
+}
+
+#infomacion .informacion-subseccion-right img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#infomacion .informacion-subseccion-right .video {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 120px);
+  z-index: -1;
+}
+
+#infomacion .informacion-subseccion-right .video video {
+  width: 240px;
+  height: auto;
+}
+
+@media screen and (min-width: 950px) {
+  #inicio .inicio-textos h1 {
+    font-size: 4rem;
+  }
+  #inicio .inicio-textos p {
+    font-size: 1.5rem;
+  }
+  #inicio .inicio-textos form {
+    width: 950px;
+    max-width: 950px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #inicio .inicio-textos form input {
+    width: 70%;
+  }
+  #inicio .inicio-textos form button {
+    height: 52px;
+    width: 20%;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
